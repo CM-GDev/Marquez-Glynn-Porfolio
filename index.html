@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/CSS/style.css"/>
+
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <nav class="grey darken-1 nav-extended" id="navigation">
+            <div class="nav-wrapper">
+                
+                <h3 class="brand-logo flow-text truncate">Cristobal Marquez-Glynn</h3>
+                
+                <!-- <img class="brand-logo responsive-img circle" src="./assets/images/Picture.jpg"> -->
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#AboutMe">About Me<i class="material-icons right">person</i></a></li>
+                    <li><a href="#Work">Work<i class="material-icons right">public</i></a></li>
+                    <li><a href="#ContactMe">Contact Me<i class="material-icons right">chat</i></a></li>
+                    <li><a href="./assets/images/colorPalett.jpg" target="blank">Resume<i class="material-icons right">open_in_new</i></a></li>
+                  </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#AboutMe">About Me<i class="material-icons right">person</i></a></li>
+            <li><a href="#Work">Work<i class="material-icons right">public</i></a></li>
+            <li><a href="#ContactMe">Contact Me<i class="material-icons right">chat</i></a></li>
+            <li><a href="./assets/images/colorPalett.jpg" target="blank">Resume<i class="material-icons right">open_in_new</i></a></li>
+        </ul>
+
+        <header class="card-panel z-depth-3">
+            <div class="row valign-wrapper right" id="header">
+                <img src="./assets/images/Picture.jpg" alt="My Picture" class="circle responsive-img z-depth-2">
+                <h4 class="right white-text z-depth-2">Welcome to my page!</h4>
+            </div>
+        </header>
+
+        <main class="container">
+            <article class="row" id="AboutMe">
+                <div class="col s12 l2">
+                    <h5>About Me</h5>
+                </div>
+                <div class="col s12 l10 righBlock">
+                    <p>I'm currently enrolled in a full stack web development bootcamp through the University of Washington.</p>
+                    <p>I'm gaining experience and knowledge from the course that I'm very proud of. Below I've created links to projects I'm showcasing from my body of work. Thank you for visiting!</p>
+                </div>
+            </article>
+            <article class="row" id="Work">
+                <div class="col s12 l2">
+                    <h5>Work</h5>
+                </div>
+                <div class="col s12 l10 righBlock">
+                    <div class="card hoverable row s12">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/geoLacator.png">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">IPGeolocator and Teleport Quality of LIfe Scores<i class="material-icons right">more_vert</i></span>
+                            <p><a href="https://ctmbr.github.io/IPGeolocator/" target="blank">Link</a></p>
+                          </div>
+                          <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">IPGeolocator and Teleport Quality of LIfe Scores<i class="material-icons right">close</i></span>
+                            <p>This was my first group project for the course. Four other team members and myself created a webpage that uses two APIs to [1] Retrieve and display the user's IP address information, using FreeGeoIpAPI and [2] Use the Teleport API, to retrieve and display quality of life scores for cities from the Teleport database. Once the webpage provides the user's IP adress information, it detects the nearest Teleport city to the user's location and provides relevant quality of life scores for that city. The webpage also has a search bar for the user to retrieve quality of life for other cities from around the world!</p>
+                          </div>
+                    </div>
+                    <div class="row">
+                        <div class="card small hoverable col s12 m6">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./assets/images/weather.JPG">
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
+                                <p><a href="https://cm-gdev.github.io/Server-SideAPIs_Weather-Dashboard/" target="blank">Link</a></p>
+                              </div>
+                              <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Weather Dashboard<i class="material-icons right">close</i></span>
+                                <p>In this homework assignment, I implemented the use of a third-party API for the first time. As the name suggests, the webpage retrieves and displays weather forcast for any US city searched by the user. The webpage also has a search history area for the user to use.</p>
+                              </div>
+                        </div>
+                        <div class="card small hoverable col s12 m6">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./assets/images/password.JPG">
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Password Generator<i class="material-icons right">more_vert</i></span>
+                                <p><a href="https://cm-gdev.github.io/PasswordGenerator/" target="blank">Link</a></p>
+                              </div>
+                              <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Password Generator<i class="material-icons right">close</i></span>
+                                <p>This homework assignment was one of the first projects for the bootcamp course. It showcases the first time I applied JavaScript to create a webpage that generates a password given some input parameters by the user. I'm showcasing this project because using JavaScript for the first time code was a major step towards my goal of becoming a Full Stack Web Developer</p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="row" id="ContactMe">
+                <div class="col s12 l2">
+                    <h5>Contact Me</h5>
+                </div>
+                <div class="col s12 l10 righBlock">
+                    <div class="row" id="contactLinks">
+                        
+                        <a class="waves-effect waves-light btn-large red  lighten-1" href="mailto:cmarqgln@uw.edu" target="blank"><i class="material-icons left">email</i>Email</a>
+                        
+                        
+                        <a class="waves-effect waves-light btn-large red  lighten-1" href="https://github.com/CM-GDev" target="blank"><i class="material-icons left">work</i>GitHub</a>
+                        
+                        
+                        <a class="waves-effect waves-light btn-large red lighten-1" href="https://www.linkedin.com/in/cristobal-marquez-glynn-engineer/" target="blank"><i class="material-icons left">cloud</i>LinkedIn</a>
+                        
+                    </div>
+                </div>
+            </article>
+
+            
+    
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <script src="./assets/js/script.js"></script>
+
+  </body>
+</html>
