@@ -1,4 +1,4 @@
-
+/* Majority of CSS was done with Materialize CSS framework. The following are minor adjustments */
 #navigation {
     padding-bottom: 10px;
     padding-left: 2%;
@@ -7,7 +7,7 @@
 h3 {
     margin-bottom: 0%;
 }
-
+/* Adding background image to header section */
 header {
     height: 8rem;
     background-image: url("../images/colorPalett.jpg");
@@ -25,7 +25,6 @@ header div {
 header div h4 {
     margin: 0%;
     padding: 5px 15px;
-    /* background-color: white; */
 }
 
 .righBlock {
@@ -39,7 +38,7 @@ header div h4 {
     justify-content: space-around;
     padding: 14px 20px;
   }
-
+/* Setting media queries when screen width is smaller than 992px */
   @media screen and (max-width: 992px){
     .righBlock {
         border-top-style: solid;
