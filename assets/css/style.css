@@ -32,19 +32,17 @@ header div h4 {
     border-left: 2px solid rgb(224, 57, 57);
 }
 
-/* properties for "contact me" section */
-#contactLinks {
+.contactLinks{
     display: flex;
-    width: 100%;
-    justify-content: space-around;
-    padding: 14px 20px;
-  }
+    justify-content: center;
+    margin-top: 5px;
+}
+
 /* Setting media queries when screen width is smaller than 992px */
-  @media screen and (max-width: 992px){
+@media screen and (max-width: 992px){
     .righBlock {
         border-top-style: solid;
         border-top-color: rgb(224, 57, 57);
         border-left-style: none;
-        /* justify-content: center; */
     }
-  }
+}
