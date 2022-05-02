@@ -38,6 +38,10 @@ header div h4 {
     margin-top: 5px;
 }
 
+.btn-large{
+    min-width: 150px;
+}
+
 /* Setting media queries when screen width is smaller than 992px */
 @media screen and (max-width: 992px){
     .righBlock {
