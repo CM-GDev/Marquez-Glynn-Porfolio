@@ -7,7 +7,7 @@
 
 The following is a screenshot of the current page.
 
-![Desktop Page](./assets/images/Portfolio.jpg)  
+![Desktop Page](/assets/images/Portfolio.JPG)  
 
 
 ## Credits
