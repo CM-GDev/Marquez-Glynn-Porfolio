@@ -1,18 +1,17 @@
 # Marquez-Glynn-Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 ## Description
-- This week's homework assignment was to update our Portfolio page from week two. 
-- I chose to use Materialize CSS framework to rebuild my Portfolio page to expand my knowledge of CSS frameworks.
-- My updated Portfolio page showcases my most recent group project and two strong homework assignments I submitted so far. 
+- In this project I created a portfolio page from scratch to showcase some of my most recent web devepolment applications. 
+- I chose to use the Materialize CSS framework to build my page in order to expand my knowledge of the CSS frameworks. 
 
-The following are screenshots of the final version of the webpage when it was first submitted for review. The first screenshot is of the page as seen on a full desktop display. The Second screenshot shows the page as it would appear in a smaller screen size device.
+The following is a screenshot of the current page.
 
-![Desktop Page](./assets/images/Portfolio.png)  
-![Mobile Page](./assets/images/mobilePortfolio.png)  
+![Desktop Page](./assets/images/Portfolio.jpg)  
 
 
 ## Credits
-For this homework assignment, I applied what has been taught in the eight weeks of class and used the following webpages as resources to bring the project together, especially the Materialize CSS framework documentation 
+For this homework assignment, I applied my CSS and HTML knowledge and used the Materialize CSS framework documentation to complete my page.
 
 - [Materialize CSS Framework](https://materializecss.com/) 
 
@@ -47,5 +46,4 @@ Coming Soon
 ## How to Contribute
 Please feel free to review my code at [GITHUB](https://github.com/CM-GDev/Marquez-Glynn-Porfolio) for this project and make any suggestions for improvements.
 
-Here are the live webpage links for my Portfolio from week two, only using vanilla HTML and CSS [link](https://github.com/CM-GDev/Portfolio) and the link to my latest Portfolio page using the Materialize CSS framework [link](https://cm-gdev.github.io/Marquez-Glynn-Porfolio/)
- 
+Here is the link to my [Portfolio](https://cm-gdev.github.io/Marquez-Glynn-Porfolio/) page.
