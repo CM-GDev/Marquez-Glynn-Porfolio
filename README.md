@@ -5,9 +5,9 @@
 - In this project I created a portfolio page from scratch to showcase some of my most recent web devepolment applications. 
 - I chose to use the Materialize CSS framework to build my page in order to expand my knowledge of the CSS frameworks. 
 
-The following is a screenshot of the current page.
+The following is a screenshot of the current page. To visit the page [click here](https://cm-gdev.github.io/Marquez-Glynn-Porfolio/)  
 
-![Desktop Page](/assets/images/Portfolio.JPG)  
+![Desktop Page](/assets/images/Portfolio.JPG)
 
 
 ## Credits
@@ -45,5 +45,3 @@ Coming Soon
 
 ## How to Contribute
 Please feel free to review my code at [GITHUB](https://github.com/CM-GDev/Marquez-Glynn-Porfolio) for this project and make any suggestions for improvements.
-
-Here is the link to my [Portfolio](https://cm-gdev.github.io/Marquez-Glynn-Porfolio/) page.
