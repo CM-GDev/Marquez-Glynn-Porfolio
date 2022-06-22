@@ -28,6 +28,10 @@ header div h4 {
     padding: 5px 15px;
 }
 
+.roundCorners {
+    border-radius: 20px;
+}
+
 .righBlock {
     border-left: 2px solid #9e9e9e;
 }
