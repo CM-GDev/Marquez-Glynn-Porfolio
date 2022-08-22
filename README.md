@@ -1,6 +1,10 @@
 # Marquez-Glynn-Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
+## UPDATE: 
+This Portfolio page is no longer up to date. Please visit my latest Portfolio built with React.js here:
+- [GitHub Repo](https://github.com/CM-GDev/react-cmg-dev-portfolio)
+
 ## Description
 - In this project I created a portfolio page from scratch to showcase some of my most recent web devepolment applications. 
 - I chose to use the Materialize CSS framework to build my page in order to expand my knowledge of the CSS frameworks. 
